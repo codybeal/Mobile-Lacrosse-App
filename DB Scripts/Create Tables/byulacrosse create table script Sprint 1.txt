@@ -142,7 +142,18 @@ CREATE TABLE player_goalie
 	power_play_goals_allowed int default 0,
 	short_handed_goals_allowed int default 0,
 	empty_net_goals_allowed int default 0,
-	shootout_goals_allowed int default 0
+	shootout_goals_allowed int default 0,
+	saves int default 0
 )
 
 ;
+
+CREATE TABLE team_totals
+(
+	game_id varchar(40) primary key references game(game_id),
+	team_id varchar(50) not null references team(team_id),
+	clears_made int default 0,
+	clears_attempted int default 0,
+	power_play_opportunities int default 0
+)
+
