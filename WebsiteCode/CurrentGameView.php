@@ -2,6 +2,7 @@
 <html>
 <head>
 <title>Game View</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
 <link href="gvStyle.css" type="text/css" rel="stylesheet" />
 <link href="fonts.css" type="text/css" rel="stylesheet" />
 </head>
