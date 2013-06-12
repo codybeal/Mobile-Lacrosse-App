@@ -10,7 +10,7 @@
 
 include('config.php');
 
-$sql = "SELECT * FROM current_game_data;
+$sql = "SELECT * FROM current_game_data";
 
 $result = mysql_query($sql);
 
