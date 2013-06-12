@@ -4,7 +4,7 @@ a img {border: 0;}
 #container {width: 650px; margin-left: auto; margin-right: auto; }
 #content {width: 650px; text-align: center; }
 #footer {width: 650px; height: 79px; } 
-.body {background-color: black; background-position:center; background-image:url(Images/honeycombDone.png); background-repeat: no-repeat; text-align: center;}
+.body {background-color: black; background-position:center; background-image:url(Images/honeycombDone.png); background-repeat: repeat-y; text-align: center;}
 .timerBack {background-image: url(Images/TimerScoreBoxDone.png); width: 650px; height: 218px; background-position:center; background-repeat: no-repeat;}
 .allStatsBack {background-image: url(Images/AllStatsBoxDone.png); width: 650px; height: 425px; background-position:center; background-repeat: no-repeat;}
 .footerPad {padding-top: 3px;}
