@@ -4,7 +4,7 @@
 <title>Game View</title>
 <link href="gvStyle.css" type="text/css" rel="stylesheet" />
 <link href="fonts.css" type="text/css" rel="stylesheet" />
-<head>
+</head>
 <body class="body">
 <?php 
 
@@ -141,4 +141,4 @@ $result = mysql_query($sql);
 		</div>
 	</div>
 </body>
-<html>
+</html>
