@@ -136,7 +136,7 @@ $result = mysql_query($sql);
 			</div>
 		</div>
 		<div id="footer" >
-			<a href=''><img src="Images/PlayerButtonDone.png" class="footerPad, floatLeft" ></a>
+			<a href='players.html'><img src="Images/PlayerButtonDone.png" class="footerPad, floatLeft" ></a>
 			<a href=''><img src="Images/BackButtonDone.png" class="footerPad, floatRight"></a>
 		</div>
 	</div>
