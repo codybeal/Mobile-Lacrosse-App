@@ -16,8 +16,8 @@ a img {border: 0;}
 .tableMiddle {height: 57px; width: 300px;}
 .statTable {color:white; width: 600px; margin-left: 25px; margin-top: 5px;}	
 .timerTable {color: white; width: 630px; margin-left: 7px;}
-.timeTopLR {height: 74px; width: 150px; font-size: 40px;}
-.timeTopMid {height: 114px; width: 330px; font-size: 100px; color: black;}
-.timeBottomLR {height: 113px; width: 150px; font-size: 100px; color: black;}
-.timeBottomMid {height: 73px; width: 330px; font-size: 60px;}
+.timeTopLR {height: 74px; width: 150px; font-size: 40px; text-align: center;}
+.timeTopMid {height: 114px; width: 330px; font-size: 100px; color: black; text-align: center;}
+.timeBottomLR {height: 113px; width: 150px; font-size: 100px; color: black; text-align: center;}
+.timeBottomMid {height: 73px; width: 330px; font-size: 60px; text-align: center;}
 .collegeFont { font-family:'Conv_colleges',Sans-Serif;}
