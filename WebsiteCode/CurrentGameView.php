@@ -19,18 +19,18 @@ $result = mysql_query($sql);
 	{
 		$shots_h=$row['home_shots'];
 		$saves_h=$row['home_saves'];
-		$gbs_h=$row['home_ground_balls'];
+		$gbs_h=$row['home_groundballs'];
 		$faces_h=$row['home_face_won'];
 		$clears_h=$row['home clears_made'];
-		$ppopp_h=$row['home_power_play_opportunities'];
+		$ppopp_h=$row['home_power_play_opps'];
 		$penalty_h=$row['home_penalties'];
 	
 		$shots_v=$row['vis_shots'];
 		$saves_v=$row['vis_saves'];
-		$gbs_v=$row['vis_ground_balls'];
+		$gbs_v=$row['vis_groundballs'];
 		$faces_v=$row['vis_face_won'];
 		$clears_v=$row['vis_clears_made'];
-		$ppopp_v=$row['vis_power_play_opportunities'];
+		$ppopp_v=$row['vis_power_play_opps'];
 		$penalty_v=$row['vis_penalties'];
 	
 		$home_id=$row['home_id'];
