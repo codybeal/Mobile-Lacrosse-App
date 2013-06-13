@@ -55,19 +55,19 @@ $result = mysql_query($sql);
 					<tr>
 						<td class="timeTopLR"><?=$home_id?>
 						</td>
-						<td rowspan=2 class="timeTopMid"><?=$clock?>
+						<td rowspan=2 class="timeTopMid scorePadM"><?=$clock?>
 						</td>
-						<td class="timeTopLR"><?=$vis_id?>
+						<td class="timeTopLR scorePadR"><?=$vis_id?>
 						</td>
 					</tr>
 					<tr>
 						<td rowspan=2 class="timeBottomLR"><?=$home_score?>
 						</td>
-						<td rowspan=2 class="timeBottomLR"><?=$vis_score?>
+						<td rowspan=2 class="timeBottomLR scorePadR"><?=$vis_score?>
 						</td>
 					</tr>
 					<tr>
-						<td class="timeBottomMid">PERIOD <?=$period?>
+						<td class="timeBottomMid scorePadM">PERIOD <?=$period?>
 						</td>
 					</tr>
 				</table>
