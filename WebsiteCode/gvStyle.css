@@ -20,4 +20,6 @@ a img {border: 0;}
 .timeTopMid {height: 114px; width: 330px; font-size: 100px; color: black; text-align: center;}
 .timeBottomLR {height: 113px; width: 150px; font-size: 100px; color: black; text-align: center;}
 .timeBottomMid {height: 73px; width: 330px; font-size: 60px; text-align: center;}
+.scorePadR {padding-right: 10px;}
+.scorePadM {padding-right: 5px;}
 .collegeFont { font-family:'Conv_colleges',Sans-Serif;}
