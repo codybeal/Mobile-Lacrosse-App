@@ -6,8 +6,11 @@
 <link href="gvStyle.css" type="text/css" rel="stylesheet" />
 <link href="fonts.css" type="text/css" rel="stylesheet" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 <link rel="icon" href="favicon.ico" type="image/x-icon"> 
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+=======
+>>>>>>> 34003dea4a0074a16ead9e5734a9138dfddfb638
 =======
 >>>>>>> 34003dea4a0074a16ead9e5734a9138dfddfb638
 </head>
@@ -148,7 +151,11 @@ $result = mysql_query($sql);
 	</div>
 </body>
 <<<<<<< HEAD
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 34003dea4a0074a16ead9e5734a9138dfddfb638
 =======
 </html>
 >>>>>>> 34003dea4a0074a16ead9e5734a9138dfddfb638
