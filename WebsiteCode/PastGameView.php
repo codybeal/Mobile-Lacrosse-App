@@ -2,62 +2,43 @@
 <html>
 <head>
 <title>Game View</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
 <link href="gvStyle.css" type="text/css" rel="stylesheet" />
 <link href="fonts.css" type="text/css" rel="stylesheet" />
-<link rel="icon" href="favicon.ico" type="image/x-icon"> 
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
 </head>
 <body class="body">
 <?php 
 
 include('config.php');
 
-$sql = "SELECT shots, saves, ground_balls, face_won, clears_made, power_play_opportunities, penalties FROM team_totals WHERE team_id=''";
-$sql2 = "SELECT shots, saves, ground_balls, face_won, clears_made, power_play_opportunities, penalties FROM team_totals WHERE team_id=''";
-$sql3 = "SELECT home_id, vis_id FROM game";
-$sql4 = "SELECT period, clock FROM game_status";
-$sql5 = "SELECT home_score, vis_score FROM game_current_score";
+$sql = "SELECT * FROM current_game_data";
 
 $result = mysql_query($sql);
-$result2 = mysql_query($sql2);
-$result3 = mysql_query($sql3);
-$result4 = mysql_query($sql4);
-$result5 = mysql_query($sql5);
+
 
 	if($row=mysql_fetch_array($result))
 	{
-		$shots_h=$row['shots'];
-		$saves_h=$row['saves'];
-		$gbs_h=$row['ground_balls'];
-		$faces_h=$row['face_won'];
-		$clears_h=$row['clears_made'];
-		$ppopp_h=$row['power_play_opportunities'];
-		$penalty_h=$row['penalties'];
-	}
-	if($row2=mysql_fetch_array($result2))
-	{
-		$shots_v=$row2['shots'];
-		$saves_v=$row2['saves'];
-		$gbs_v=$row2['ground_balls'];
-		$faces_v=$row2['face_won'];
-		$clears_v=$row2['clears_made'];
-		$ppopp_v=$row2['power_play_opportunities'];
-		$penalty_v=$row2['penalties'];
-	}	
-	if($row3=mysql_fetch_array($result3))
-	{
-		$home_id=$row4['home_id'];
-		$vis_id=$row4['vis_id'];
-	}
-	if($row4=mysql_fetch_array($result4))
-	{
-		$period=$row5['period'];
-		$clock=$row5['clock'];
-	}
-	if($row5=mysql_fetch_array($result5))
-	{
-		$home_score=$row4['home_score'];
-		$vis_score=$row4['vis_score'];
+		$shots_h=$row['home_shots'];
+		$saves_h=$row['home_saves'];
+		$gbs_h=$row['home_groundballs'];
+		$faces_h=$row['home_face_won'];
+		$clears_h=$row['home_clears_made'];
+		$ppopp_h=$row['home_power_play_opps'];
+		$penalty_h=$row['home_penalties'];
+	
+		$shots_v=$row['vis_shots'];
+		$saves_v=$row['vis_saves'];
+		$gbs_v=$row['vis_groundballs'];
+		$faces_v=$row['vis_face_won'];
+		$clears_v=$row['vis_clears_made'];
+		$ppopp_v=$row['vis_power_play_opps'];
+		$penalty_v=$row['vis_penalties'];
+	
+		$home_id=$row['home_id'];
+		$vis_id=$row['vis_id'];
+
+		$home_score=$row['home_score'];
+		$vis_score=$row['vis_score'];
 	}
 
 ?>
@@ -71,19 +52,19 @@ $result5 = mysql_query($sql5);
 					<tr>
 						<td class="timeTopLR"><?=$home_id?>
 						</td>
-						<td rowspan=2 class="timeTopMid"><?=$clock?>
+						<td rowspan=2 class="timeTopMid scorePadM">00:00:00
 						</td>
-						<td class="timeTopLR"><?=$vis_id?>
+						<td class="timeTopLR scorePadR"><?=$vis_id?>
 						</td>
 					</tr>
 					<tr>
 						<td rowspan=2 class="timeBottomLR"><?=$home_score?>
 						</td>
-						<td rowspan=2 class="timeBottomLR"><?=$vis_score?>
+						<td rowspan=2 class="timeBottomLR scorePadR"><?=$vis_score?>
 						</td>
 					</tr>
 					<tr>
-						<td class="timeBottomMid">PERIOD <?=$period?>
+						<td class="timeBottomMid scorePadM">FINAL
 						</td>
 					</tr>
 				</table>
@@ -154,7 +135,7 @@ $result5 = mysql_query($sql5);
 		</div>
 		<div id="footer" >
 			<a href='players.html'><img src="Images/PlayerButtonDone.png" class="footerPad, floatLeft" ></a>
-			<a href='index.html'><img src="Images/BackButtonDone.png" class="footerPad, floatRight"></a>
+			<a href='PastGameList.php'><img src="Images/BackButtonDone.png" class="footerPad, floatRight"></a>
 		</div>
 	</div>
 </body>

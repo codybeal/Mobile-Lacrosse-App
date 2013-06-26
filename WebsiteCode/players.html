@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Players</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+<link href="playersStyle.css" type="text/css" rel="stylesheet" />
+<link href="fonts.css" type="text/css" rel="stylesheet" />
+</head>
+<body class="body">
+	<div id="header">
+		<img src="Images/headerLaXDone.png">
+	</div>
+	<p class="construction">Currently Under Construction</p>
+<?php 
+    include('config.php');
+    //basic read	
+	$sql = "SELECT * FROM player ORDER BY number";
+
+	$result = mysql_query($sql);
+
+	// while loop that runs until all the records are retrieved
+	while($row=mysql_fetch_array($result))
+	{
+		$lname=$row['lname'];
+		$number=$row['number'];
+		$goals=$row['goals'];
+		$assists=$row['assists'];
+		$sh=$row['sh'];
+		$sog=$row['sog'];
+		
+		
+		echo"<div style=\"background-image: url(blueButton2.png); height: 150px; width: 300px; font-family: Arial Black\">
+			<TABLE style=\"color:white; height: 140px; width: 295px;\">
+				<TR>
+				<TD rowspan=4 style=\"font-size: 70px; text-align: center; width: 160px;\">
+					<span style=\"font-size: 15px;\">". $lname ."</span></br>".
+					$number .
+				"</TD>
+				<TD style=\"height: 35px; width: 70px; text-align: right;\">
+					GOALS
+				</TD>
+				<TD style=\"width: 65px; text-align: center;\">".
+					$goals .
+				"</TD>
+				</TR>
+				<TR>
+				<TD style=\"height: 35px; width: 70px; text-align: right;\">
+					ASSISTS
+				</TD>
+				<TD style=\"width: 65px; text-align: center;\">".
+					$assists .
+				"</TD>
+				</TR>
+				<TR>
+				<TD style=\"height: 35px; width: 70px; text-align: right;\">
+					SH
+				</TD>
+				<TD style=\"width: 65px; text-align: center;\">".
+					$sh .
+				"</TD>
+				</TR>
+				<TR>
+				<TD style=\"height: 35px; width: 70px; text-align: right;\">
+					SOG
+				</TD>
+				<TD style=\"width: 65px; text-align: center;\">".
+					$sog .
+				"</TD>
+				</TR>
+		</TABLE>
+		</div>"."</br>";
+	}
+?>
+</body>
+</html>
