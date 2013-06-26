@@ -5,8 +5,18 @@ a img {border: 0;}
 #content {width: 650px; text-align: center; }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 #footer {width: 650px; height: 79px;} 
 .body {background-color: black; background-position:center; background-image:url(Images/homeBackRev.png); background-repeat: repeat-y; text-align: center;}
+=======
+#footer {width: 650px; height: 79px; } 
+.body {background-color: black; background-position:center; background-image:url(Images/honeycombDone.png); background-repeat: repeat-y; text-align: center;}
+>>>>>>> 34003dea4a0074a16ead9e5734a9138dfddfb638
+=======
+#footer {width: 650px; height: 79px; } 
+.body {background-color: black; background-position:center; background-image:url(Images/honeycombDone.png); background-repeat: repeat-y; text-align: center;}
+>>>>>>> 34003dea4a0074a16ead9e5734a9138dfddfb638
 =======
 #footer {width: 650px; height: 79px; } 
 .body {background-color: black; background-position:center; background-image:url(Images/honeycombDone.png); background-repeat: repeat-y; text-align: center;}
@@ -28,7 +38,15 @@ a img {border: 0;}
 .timerTable {color: white; width: 630px; margin-left: 7px;}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 .timeTopLR {height: 74px; width: 150px; font-size: 30px; text-align: center;}
+=======
+.timeTopLR {height: 74px; width: 150px; font-size: 40px; text-align: center;}
+>>>>>>> 34003dea4a0074a16ead9e5734a9138dfddfb638
+=======
+.timeTopLR {height: 74px; width: 150px; font-size: 40px; text-align: center;}
+>>>>>>> 34003dea4a0074a16ead9e5734a9138dfddfb638
 =======
 .timeTopLR {height: 74px; width: 150px; font-size: 40px; text-align: center;}
 >>>>>>> 34003dea4a0074a16ead9e5734a9138dfddfb638
@@ -42,9 +60,17 @@ a img {border: 0;}
 .scorePadM {padding-right: 5px;}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 .scoreText {width: 80px; height: 80px; vertical-align: top; font-size: 70px;}
 .statText{width: 70px; height: 40px; font-size: 35px;}
 .collegeFont { font-family:'Conv_colleges',Sans-Serif;}
+=======
+.collegeFont { font-family:'Conv_colleges',Sans-Serif;}
+>>>>>>> 34003dea4a0074a16ead9e5734a9138dfddfb638
+=======
+.collegeFont { font-family:'Conv_colleges',Sans-Serif;}
+>>>>>>> 34003dea4a0074a16ead9e5734a9138dfddfb638
 =======
 .collegeFont { font-family:'Conv_colleges',Sans-Serif;}
 >>>>>>> 34003dea4a0074a16ead9e5734a9138dfddfb638
