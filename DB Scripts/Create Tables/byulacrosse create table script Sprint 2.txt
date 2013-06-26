@@ -50,7 +50,6 @@ CREATE TABLE game_goalie_changes
 (
 	goalie_change_id int auto_increment primary key,	
 	game_id varchar(40) not null references game(game_id),
-	vis_home char(2),
 	team_id varchar(50) not null references team(team_id),
 	game_period int,
 	play_clock time,
@@ -85,14 +84,12 @@ CREATE TABLE game_plays
 CREATE TABLE game_scores
 (
 	game_id varchar(40) not null references game(game_id),
-	score_num int not null,	
-	team_id varchar(50) not null references team(team_id),
+	score_num int not null,		
 	game_period int,
 	play_clock time,
 	score_type char(10),
 	player_id varchar(15) not null references player(player_id),
 	score_assist1 varchar(15) references player(player_id),
-	score_assist2 varchar(15) references player(player_id),
 	primary key (game_id, score_num)	
 )
 
@@ -206,3 +203,15 @@ CREATE TABLE player_shots
 )
 
 ;
+
+CREATE TABLE users
+(
+	id int autoincrement primary key,
+	name varchar(255) not null,
+	username varchar(150) not null unique,
+	email varchar(100) not null unique,
+	password varchar(100) not null,
+	active bit not null default 1,
+	register_date datetime not null,
+	last_login datetime not null
+)
