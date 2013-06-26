@@ -1,0 +1,217 @@
+CREATE TABLE team
+(
+	team_id varchar(50) not null primary key,
+	name varchar(50) not null,
+	code varchar(15),
+	record varchar(15)		
+)
+
+;
+
+CREATE TABLE player
+(
+	player_id varchar(15) not null primary key,
+	name varchar(80),
+	check_name varchar(80),	
+	uniform char(4),
+	team_id varchar(50) not null references team(team_id)	
+)
+
+;
+
+CREATE TABLE game
+(
+	game_id varchar(40) not null primary key,
+	vis_id varchar(50) not null references team(team_id),
+	home_id varchar(50) not null references team(team_id),
+	game_date date not null,
+	location varchar(100),
+	start_time time,
+	end_time time,
+	duration time,
+	attend int,
+	sched_note varchar(500),
+	league_game bit,
+	neutral_game bit
+)
+
+;
+
+CREATE TABLE game_current_score
+(
+	game_id varchar(40) primary key references game(game_id),
+	home_score int,
+	vis_score int
+)
+
+;
+
+CREATE TABLE game_goalie_changes
+(
+	goalie_change_id int auto_increment primary key,	
+	game_id varchar(40) not null references game(game_id),
+	team_id varchar(50) not null references team(team_id),
+	game_period int,
+	play_clock time,
+	goalie_id varchar(15) not null references player(player_id)
+)
+
+;
+
+CREATE TABLE game_officials
+(
+	game_id varchar(40) not null references game(game_id),
+	official_name varchar(80),
+	primary key (game_id, official_name)
+)
+
+;
+
+CREATE TABLE game_plays
+(
+	game_id varchar(40) not null references game(game_id),
+	play_num int not null,
+	game_period int,	
+	team_id varchar(50) not null references team(team_id),
+	play_clock time,
+	play_action varchar(50) not null,
+	play_text varchar(500),
+	primary key(game_id, play_num)
+)
+
+; 
+
+CREATE TABLE game_scores
+(
+	game_id varchar(40) not null references game(game_id),
+	score_num int not null,		
+	game_period int,
+	play_clock time,
+	score_type char(10),
+	player_id varchar(15) not null references player(player_id),
+	score_assist1 varchar(15) references player(player_id),
+	primary key (game_id, score_num)	
+)
+
+;
+
+CREATE TABLE game_status
+(
+	game_id varchar(40) primary key references game(game_id),
+	period int,
+	clock time
+)
+
+;
+
+CREATE TABLE team_totals
+(
+	game_id varchar(40) not null references game(game_id),
+	team_id varchar(50) not null references team(team_id),
+	shots int default 0,
+	saves int default 0,
+	ground_balls int default 0,
+	face_won int default 0,
+	face_lost int default 0,
+	clears_made int default 0,
+	clears_attempted int default 0,
+	power_play_opportunities int default 0,
+	penalties int default 0,
+	primary key (game_id, team_id)
+)
+
+;
+
+CREATE TABLE player_goal_type
+(
+	game_id varchar(40) primary key references game(game_id),
+	player_id varchar(15) not null references player(player_id),
+	game_winning int default 0,
+	power_play int default 0,
+	short_handed int default 0,
+	unassisted int default 0,
+	first_goals int default 0,
+	over_time int default 0,
+	empty_net int default 0,
+	game_tying int default 0,
+	free_position int default 0,
+	shootout int default 0
+)
+
+;
+
+CREATE TABLE player_goalie
+(
+	game_id varchar(40) primary key references game(game_id),
+	player_id varchar(15) not null references player(player_id),
+	win bit default 0,
+	loss bit default 0,
+	tie bit default 0,
+	power_play_goals_allowed int default 0,
+	short_handed_goals_allowed int default 0,
+	empty_net_goals_allowed int default 0,
+	shootout_goals_allowed int default 0,
+	saves int default 0
+)
+
+;
+
+CREATE TABLE player_misc
+(
+	game_id varchar(40) primary key references game(game_id),
+	player_id varchar(15) not null references player(player_id),
+	face_won int default 0,
+	face_lost int default 0,
+	ground_balls int default 0,
+	draw_controls int default 0,
+	turnovers int default 0,
+	caused_turnovers int default 0,
+	minutes_played int default 0,
+	seconds_played int default 0
+)
+
+;
+
+CREATE TABLE player_penalties
+(
+	game_id varchar(40) not null references game(game_id),
+	penalty_num int not null,		
+	game_period int,
+	play_clock time,
+	power_play bit,
+	penalty_type varchar(40),
+	penalty_seconds int,
+	player_id varchar(15) not null references player(player_id),
+	penalty_abbreviation varchar(15),
+	penalty_description varchar(50),
+	primary key(game_id, penalty_num)
+)
+
+;
+
+CREATE TABLE player_shots
+(
+	game_id varchar(40) primary key references game(game_id),
+	player_id varchar(15) not null references player(player_id),
+	goals int default 0,
+	assists int default 0,
+	shots int default 0,
+	shots_on_goal int default 0,
+	free_position int default 0,
+	shootout int default 0
+	
+)
+
+;
+
+CREATE TABLE users
+(
+	id int autoincrement primary key,
+	name varchar(255) not null,
+	username varchar(150) not null unique,
+	email varchar(100) not null unique,
+	password varchar(100) not null,
+	active bit not null default 1,
+	register_date datetime not null,
+	last_login datetime not null
+)

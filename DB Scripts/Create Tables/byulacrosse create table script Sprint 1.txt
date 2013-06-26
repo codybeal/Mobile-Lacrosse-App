@@ -150,7 +150,7 @@ CREATE TABLE player_goalie
 
 CREATE TABLE team_totals
 (
-	game_id varchar(40) primary key references game(game_id),
+	game_id varchar(40) not null references game(game_id),
 	team_id varchar(50) not null references team(team_id),
 	shots int default 0,
 	saves int default 0,
@@ -160,6 +160,8 @@ CREATE TABLE team_totals
 	clears_made int default 0,
 	clears_attempted int default 0,
 	power_play_opportunities int default 0,
-	penalties int default 0
+	penalties int default 0,
+	primary key (game_id, team_id)
 )
+
 
