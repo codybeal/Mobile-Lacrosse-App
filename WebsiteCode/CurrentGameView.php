@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <link rel="icon" href="favicon.ico" type="image/x-icon"> 
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
 =======
@@ -19,6 +20,8 @@
 >>>>>>> 34003dea4a0074a16ead9e5734a9138dfddfb638
 =======
 >>>>>>> 34003dea4a0074a16ead9e5734a9138dfddfb638
+=======
+>>>>>>> b5ef1897edb3396a84211adff2ad26ea0df3eaea
 </head>
 <body class="body">
 <?php 
@@ -160,6 +163,7 @@ $result = mysql_query($sql);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 </html>
 =======
 </html>
@@ -173,3 +177,6 @@ $result = mysql_query($sql);
 =======
 </html>
 >>>>>>> 34003dea4a0074a16ead9e5734a9138dfddfb638
+=======
+</html>
+>>>>>>> b5ef1897edb3396a84211adff2ad26ea0df3eaea

@@ -7,6 +7,7 @@ a img {border: 0;}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #footer {width: 650px; height: 79px;} 
 .body {background-color: black; background-position:center; background-image:url(Images/homeBackRev.png); background-repeat: repeat-y; text-align: center;}
 =======
@@ -25,6 +26,10 @@ a img {border: 0;}
 #footer {width: 650px; height: 79px; } 
 .body {background-color: black; background-position:center; background-image:url(Images/honeycombDone.png); background-repeat: repeat-y; text-align: center;}
 >>>>>>> 34003dea4a0074a16ead9e5734a9138dfddfb638
+=======
+#footer {width: 650px; height: 79px; } 
+.body {background-color: black; background-position:center; background-image:url(Images/honeycombDone.png); background-repeat: repeat-y; text-align: center;}
+>>>>>>> b5ef1897edb3396a84211adff2ad26ea0df3eaea
 .timerBack {background-image: url(Images/TimerScoreBoxDone.png); width: 650px; height: 218px; background-position:center; background-repeat: no-repeat;}
 .allStatsBack {background-image: url(Images/AllStatsBoxDone.png); width: 650px; height: 425px; background-position:center; background-repeat: no-repeat;}
 .footerPad {padding-top: 3px;}
@@ -36,6 +41,7 @@ a img {border: 0;}
 .tableMiddle {height: 57px; width: 300px;}
 .statTable {color:white; width: 600px; margin-left: 25px; margin-top: 5px;}	
 .timerTable {color: white; width: 630px; margin-left: 7px;}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53,11 +59,15 @@ a img {border: 0;}
 =======
 .timeTopLR {height: 74px; width: 150px; font-size: 40px; text-align: center;}
 >>>>>>> 34003dea4a0074a16ead9e5734a9138dfddfb638
+=======
+.timeTopLR {height: 74px; width: 150px; font-size: 40px; text-align: center;}
+>>>>>>> b5ef1897edb3396a84211adff2ad26ea0df3eaea
 .timeTopMid {height: 114px; width: 330px; font-size: 100px; color: black; text-align: center;}
 .timeBottomLR {height: 113px; width: 150px; font-size: 100px; color: black; text-align: center;}
 .timeBottomMid {height: 73px; width: 330px; font-size: 60px; text-align: center;}
 .scorePadR {padding-right: 10px;}
 .scorePadM {padding-right: 5px;}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -77,3 +87,6 @@ a img {border: 0;}
 =======
 .collegeFont { font-family:'Conv_colleges',Sans-Serif;}
 >>>>>>> 34003dea4a0074a16ead9e5734a9138dfddfb638
+=======
+.collegeFont { font-family:'Conv_colleges',Sans-Serif;}
+>>>>>>> b5ef1897edb3396a84211adff2ad26ea0df3eaea
