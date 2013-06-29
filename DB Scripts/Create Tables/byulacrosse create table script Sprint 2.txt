@@ -206,6 +206,8 @@ CREATE TABLE player_shots
 
 CREATE TABLE users
 (
+	/* Depending on the version of mysql you have to run this instead:
+	id int auto_increment primary key */
 	id int autoincrement primary key,
 	name varchar(255) not null,
 	username varchar(150) not null unique,
