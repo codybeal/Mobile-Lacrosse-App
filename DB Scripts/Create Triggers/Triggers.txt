@@ -1,0 +1,12 @@
+CREATE TRIGGER ON player_goalie
+AFTER INSERT, UPDATE
+AS 
+	DECLARE @GameID varchar(40), @Saves int
+
+	SELECT @GameID = game_id, @Saves = SUM(saves)
+	FROM inserted
+	GROUP BY game_id
+
+	UPDATE team_totals
+	SET team_total.saves = @Saves
+	WHERE team_totals.game_id = @GameID
