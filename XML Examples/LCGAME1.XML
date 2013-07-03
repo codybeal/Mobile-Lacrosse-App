@@ -1,0 +1,819 @@
+<lcgame source="TAS For Lacrosse" version="1.0.2" generated="11/7/2003">
+  <venue gameid="022302HO"
+           visid="HOBART" visname="Hobart"
+           homeid="MARYLAND" homename="Maryland"
+           date="2/23/2002" location="College Park, Md."
+           start="1:00 pm" end="3:05 pm" duration="2:05" attend="2347" schednote=""
+           leaguegame="N" neutralgame="N">
+    <officials>
+      <official name="Ref-Tom Young"></official>
+      <official name="Ump-Andy Motsko"></official>
+      <official name="FJ-Dave Sideman"></official>
+    </officials>
+    <rules prds="4" minutes="15" minutesot="5" minminor="30" minmajor="60" minmatch="90" shootoutshot="0" shootoutteam="0"></rules>
+    <show sog="1" turnovers="0" faceoffs="1" penalties="0" clears="1" todetails="0" fouls="1" dcs="1" fpas="1" nll="0" reversemin="0"></show>
+  </venue>
+  <status period="4" clock="00:00"></status>
+  <team vh="V" id="HOBART" name="Hobart" code="1234" record="0-1">
+    <linescore periods="4" line="0,0,0,6" score="6" shotline="2,8,5,18" shots="33">
+      <lineprd prd="1" score="0" shots="2" sog="1" saves="7" ppg="0" ppatt="0" fowon="1" pen="2" psec="90"
+               gb="6" dc="0" fpg="0" fps="0" fpa="0" fouls="0" clockv="0" clearm="2" cleara="5" turnover="0"></lineprd>
+      <lineprd prd="2" score="0" shots="8" sog="3" saves="3" ppg="0" ppatt="1" fowon="1" pen="1" psec="30"
+               gb="6" dc="0" fpg="0" fps="0" fpa="0" fouls="0" clockv="0" clearm="4" cleara="6" turnover="0"></lineprd>
+      <lineprd prd="3" score="0" shots="5" sog="4" saves="5" ppg="0" ppatt="1" fowon="1" pen="1" psec="60"
+               gb="10" dc="0" fpg="0" fps="0" fpa="0" fouls="0" clockv="0" clearm="5" cleara="7" turnover="0"></lineprd>
+      <lineprd prd="4" score="6" shots="18" sog="13" saves="2" ppg="1" ppatt="3" fowon="6" pen="1" psec="60"
+               gb="12" dc="0" fpg="0" fps="0" fpa="0" fouls="0" clockv="0" clearm="2" cleara="4" turnover="0"></lineprd>
+    </linescore>
+    <totals>
+      <shots g="6" a="2" sh="33" sog="21" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="1" sh="0" ua="4" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="5" seconds="240" minor="2" major="3" match="0"></penalty>
+      <misc facewon="9" facelost="12" gb="34" dc="0" turnover="0" ct="0" minutes="600" seconds="0"></misc>
+      <goalie minutes="60:00" ga="13" saves="17" savebyprd="7,3,5,2" sho="0" cbosho="0" ppg="0" shg="0" eng="0" sog="0"></goalie>
+      <powerplay ppg="1" ppopp="5"></powerplay>
+      <clear clearm="13" cleara="22"></clear>
+    </totals>
+    <player uni="1" name="Kevin Cox" checkname="COX,KEVIN" gp="0" code="01"></player>
+    <player uni="2" name="Chet Braun" checkname="BRAUN,CHET" gp="1" code="2">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="3" name="Tim Booth" checkname="BOOTH,TIM" gp="1" gs="1" pos="fo" code="3">
+      <shots g="0" a="0" sh="4" sog="4" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc facewon="9" facelost="8" gb="5" dc="0" turnover="0" ct="0" minutes="60" seconds="0"></misc>
+    </player>
+    <player uni="4" name="Peter Cooke" checkname="COOKE,PETER" gp="1" code="4">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="5" name="Scott Harvey" checkname="HARVEY,SCOTT" gp="1" gs="1" pos="a" code="5">
+      <shots g="4" a="0" sh="6" sog="4" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="1" sh="0" ua="3" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="1" seconds="30" minor="1" major="0" match="0"></penalty>
+      <misc gb="4" dc="0" turnover="0" ct="0" minutes="60" seconds="0"></misc>
+    </player>
+    <player uni="6" name="Jon Tammaro" checkname="TAMMARO,JON" gp="1" gs="1" pos="d" code="6">
+      <shots g="0" a="0" sh="1" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="1" dc="0" turnover="0" ct="0" minutes="60" seconds="0"></misc>
+    </player>
+    <player uni="7" name="Jamie Giles" checkname="GILES,JAMIE" gp="1" code="7">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="8" name="Christian Gould" checkname="GOULD,CHRISTIAN" gp="1" code="8">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="3" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="9" name="Brad Neuberth" checkname="NEUBERTH,BRAD" gp="1" code="9">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="1" seconds="60" minor="0" major="1" match="0"></penalty>
+      <misc gb="4" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="10" name="Mike Borsz" checkname="BORSZ,MIKE" gp="1" gs="1" pos="gk" code="10">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="3" dc="0" turnover="0" ct="0" minutes="60" seconds="0"></misc>
+      <goalie gp="1" gs="1" minutes="60:00" ga="13" saves="17" savebyprd="7,3,5,2" loss="0-1" sho="0" cbosho="0" ppg="0" shg="0" eng="0" sog="0"></goalie>
+    </player>
+    <player uni="11" name="T.J. Rogers" checkname="J. ROGERS,T" gp="1" gs="1" pos="m" code="11">
+      <shots g="0" a="0" sh="3" sog="1" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="1" dc="0" turnover="0" ct="0" minutes="60" seconds="0"></misc>
+    </player>
+    <player uni="12" name="Nate Hill" checkname="HILL,NATE" gp="1" gs="1" pos="a" code="12">
+      <shots g="0" a="0" sh="3" sog="2" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="2" dc="0" turnover="0" ct="0" minutes="60" seconds="0"></misc>
+    </player>
+    <player uni="13" name="Dan Cesere" checkname="CESERE,DAN" gp="1" code="13">
+      <shots g="1" a="0" sh="1" sog="1" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="1" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="14" name="James Brantuk" checkname="BRANTUK,JAMES" gp="1" code="14">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="15" name="Adam Neary" checkname="NEARY,ADAM" gp="0" code="15"></player>
+    <player uni="16" name="James Behrer" checkname="BEHRER,JAMES" gp="0" code="16"></player>
+    <player uni="17" name="Alex Coates" checkname="COATES,ALEX" gp="0" code="17"></player>
+    <player uni="18" name="Dan Valente" checkname="VALENTE,DAN" gp="0" code="18"></player>
+    <player uni="19" name="Shawn Powers" checkname="POWERS,SHAWN" gp="1" code="19">
+      <shots g="0" a="0" sh="1" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="2" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="20" name="Bryan Bome" checkname="BOME,BRYAN" gp="1" code="20">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="21" name="Sean Reed" checkname="REED,SEAN" gp="0" code="21"></player>
+    <player uni="22" name="Preston Teague" checkname="TEAGUE,PRESTON" gp="1" code="22">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="23" name="Dave Sprattan" checkname="SPRATTAN,DAVE" gp="1" code="23">
+      <shots g="0" a="0" sh="1" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="24" name="John Summers" checkname="SUMMERS,JOHN" gp="1" code="24">
+      <shots g="0" a="0" sh="2" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="1" seconds="60" minor="0" major="1" match="0"></penalty>
+      <misc gb="2" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="25" name="Kris Shore" checkname="SHORE,KRIS" gp="1" code="25">
+      <shots g="0" a="1" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="26" name="Matt Kanellis" checkname="KANELLIS,MATT" gp="1" code="26">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="27" name="Scott Ditzell" checkname="DITZELL,SCOTT" gp="1" code="27">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="1" seconds="60" minor="0" major="1" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="28" name="Sean Kent" checkname="KENT,SEAN" gp="1" code="28">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="30" name="Fielding McElroy" checkname="MCELROY,FIELDING" gp="0" code="30"></player>
+    <player uni="31" name="Blake Reardon" checkname="REARDON,BLAKE" gp="1" code="31">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="33" name="Nick Musso" checkname="MUSSO,NICK" gp="1" code="33">
+      <shots g="0" a="0" sh="1" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="1" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="34" name="John Bogosian" checkname="BOGOSIAN,JOHN" gp="1" gs="1" pos="a" code="34">
+      <shots g="1" a="1" sh="4" sog="4" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="60" seconds="0"></misc>
+    </player>
+    <player uni="35" name="Jesse Schroeder" checkname="SCHROEDER,JESSE" gp="0" code="35"></player>
+    <player uni="37" name="John Lindstrom" checkname="LINDSTROM,JOHN" gp="1" gs="1" pos="d" code="37">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="1" dc="0" turnover="0" ct="0" minutes="60" seconds="0"></misc>
+    </player>
+    <player uni="38" name="Nate Molinari" checkname="MOLINARI,NATE" gp="1" code="38">
+      <shots g="0" a="0" sh="2" sog="1" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="40" name="Matt Cougle" checkname="COUGLE,MATT" gp="0" code="40"></player>
+    <player uni="41" name="Dave Occhialini" checkname="OCCHIALINI,DAVE" gp="1" code="41">
+      <shots g="0" a="0" sh="1" sog="1" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="43" name="Geoff Zbikowski" checkname="ZBIKOWSKI,GEOFF" gp="1" code="43">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="2" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="44" name="Geoff Wright" checkname="WRIGHT,GEOFF" gp="0" code="44"></player>
+    <player uni="45" name="Chris Scanlan" checkname="SCANLAN,CHRIS" gp="1" gs="1" pos="m" code="45">
+      <shots g="0" a="0" sh="3" sog="3" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="1" seconds="30" minor="1" major="0" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="60" seconds="0"></misc>
+    </player>
+    <player uni="46" name="Calvin Johnson" checkname="JOHNSON,CALVIN" gp="0" code="46"></player>
+    <player uni="47" name="Greg McCarthy" checkname="MCCARTHY,GREG" gp="1" gs="1" pos="d" code="47">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="3" dc="0" turnover="0" ct="0" minutes="60" seconds="0"></misc>
+    </player>
+    <player uni="48" name="Taylor Brown" checkname="BROWN,TAYLOR" gp="0" code="48"></player>
+    <player uni="49" name="Cam Thompson" checkname="THOMPSON,CAM" gp="1" code="49">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc facewon="0" facelost="4" gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="TM" name="TEAM" checkname="TEAM" gp="0" code="TM"></player>
+  </team>
+  <team vh="H" id="MARYLAND" name="Maryland" code="5678" record="1-0">
+    <linescore periods="4" line="3,3,3,4" score="13" shotline="19,9,11,10" shots="49">
+      <lineprd prd="1" score="3" shots="19" sog="10" saves="1" ppg="0" ppatt="2" fowon="3" pen="0" psec="0"
+               gb="6" dc="0" fpg="0" fps="0" fpa="0" fouls="0" clockv="0" clearm="3" cleara="3" turnover="0"></lineprd>
+      <lineprd prd="2" score="3" shots="9" sog="6" saves="3" ppg="0" ppatt="1" fowon="2" pen="1" psec="30"
+               gb="11" dc="0" fpg="0" fps="0" fpa="0" fouls="0" clockv="0" clearm="6" cleara="7" turnover="0"></lineprd>
+      <lineprd prd="3" score="3" shots="11" sog="8" saves="4" ppg="0" ppatt="1" fowon="3" pen="1" psec="60"
+               gb="11" dc="0" fpg="0" fps="0" fpa="0" fouls="0" clockv="0" clearm="5" cleara="6" turnover="0"></lineprd>
+      <lineprd prd="4" score="4" shots="10" sog="6" saves="7" ppg="1" ppatt="1" fowon="4" pen="3" psec="180"
+               gb="9" dc="0" fpg="0" fps="0" fpa="0" fouls="0" clockv="0" clearm="2" cleara="6" turnover="0"></lineprd>
+    </linescore>
+    <totals>
+      <shots g="13" a="8" sh="49" sog="30" freepos="0" shootout="0"></shots>
+      <goaltype gw="1" pp="1" sh="0" ua="5" fg="1" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="5" seconds="270" minor="1" major="4" match="0"></penalty>
+      <misc facewon="12" facelost="9" gb="37" dc="0" turnover="0" ct="0" minutes="599" seconds="60"></misc>
+      <goalie minutes="60:00" ga="6" saves="15" savebyprd="1,3,4,7" sho="0" cbosho="0" ppg="0" shg="0" eng="0" sog="0"></goalie>
+      <powerplay ppg="1" ppopp="5"></powerplay>
+      <clear clearm="16" cleara="22"></clear>
+    </totals>
+    <player uni="1" name="Mike Mollot" checkname="MOLLOT,MIKE" gp="1" code="01">
+      <shots g="3" a="1" sh="5" sog="5" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="1" sh="0" ua="1" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="1" seconds="60" minor="0" major="1" match="0"></penalty>
+      <misc gb="3" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="2" name="Andy Burman" checkname="BURMAN,ANDY" gp="1" code="02">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="1" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="3" name="Danny McCormick" checkname="MCCORMICK,DANNY" gp="1" gs="1" pos="gk" code="03">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="2" dc="0" turnover="0" ct="0" minutes="55" seconds="55"></misc>
+      <goalie gp="1" gs="1" minutes="55:55" ga="3" saves="14" savebyprd="1,3,4,6" win="1-0" sho="0" cbosho="0" ppg="0" shg="0" eng="0" sog="0"></goalie>
+    </player>
+    <player uni="4" name="Craig Hochstadt" checkname="HOCHSTADT,CRAIG" gp="1" code="04">
+      <shots g="1" a="0" sh="2" sog="1" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="1" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="5" name="J.R. Bordley" checkname="R. BORDLEY,J" gp="1" gs="1" pos="a" code="05">
+      <shots g="1" a="0" sh="4" sog="3" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="4" dc="0" turnover="0" ct="0" minutes="60" seconds="0"></misc>
+    </player>
+    <player uni="6" name="Drew Virk" checkname="VIRK,DREW" gp="1" code="06">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc facewon="0" facelost="1" gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="7" name="Mike Morsell" checkname="MORSELL,MIKE" gp="1" code="07">
+      <shots g="0" a="1" sh="2" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="1" seconds="60" minor="0" major="1" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="8" name="Rob Hoffman" checkname="HOFFMAN,ROB" gp="1" code="08">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="9" name="Gavin Webb" checkname="WEBB,GAVIN" gp="1" code="09">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="10" name="Andy Capelle" checkname="CAPELLE,ANDY" gp="1" code="10">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="12" name="Peter Ellis" checkname="ELLIS,PETER" gp="0" code="12"></player>
+    <player uni="13" name="Brett Harper" checkname="HARPER,BRETT" gp="1" gs="1" pos="m" code="13">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="1" seconds="30" minor="1" major="0" match="0"></penalty>
+      <misc gb="2" dc="0" turnover="0" ct="0" minutes="60" seconds="0"></misc>
+    </player>
+    <player uni="14" name="Dan LaMonica" checkname="LAMONICA,DAN" gp="1" gs="1" pos="a" code="14">
+      <shots g="2" a="3" sh="5" sog="3" freepos="0" shootout="0"></shots>
+      <goaltype gw="1" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="1" dc="0" turnover="0" ct="0" minutes="60" seconds="0"></misc>
+    </player>
+    <player uni="15" name="Mike LaMonica" checkname="LAMONICA,MIKE" gp="1" gs="1" pos="a" code="15">
+      <shots g="1" a="0" sh="9" sog="3" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="4" dc="0" turnover="0" ct="0" minutes="60" seconds="0"></misc>
+    </player>
+    <player uni="17" name="Matt Urlock" checkname="URLOCK,MATT" gp="1" code="17">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="18" name="Paul Gillette" checkname="GILLETTE,PAUL" gp="1" gs="1" pos="m" code="18">
+      <shots g="0" a="1" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="4" dc="0" turnover="0" ct="0" minutes="60" seconds="0"></misc>
+    </player>
+    <player uni="19" name="Matt Aksionoff" checkname="AKSIONOFF,MATT" gp="0" code="19"></player>
+    <player uni="20" name="Alex Melzer" checkname="MELZER,ALEX" gp="1" code="20">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="22" name="Brian Carroll" checkname="CARROLL,BRIAN" gp="1" gs="1" pos="fo" code="22">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc facewon="12" facelost="6" gb="4" dc="0" turnover="0" ct="0" minutes="60" seconds="0"></misc>
+    </player>
+    <player uni="23" name="Tommy Augustyn" checkname="AUGUSTYN,TOMMY" gp="0" code="23"></player>
+    <player uni="24" name="David Wagner" checkname="WAGNER,DAVID" gp="1" code="24">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="25" name="Sean Leary" checkname="LEARY,SEAN" gp="1" code="25">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="27" name="Matt Brock" checkname="BROCK,MATT" gp="1" code="27">
+      <shots g="1" a="0" sh="6" sog="2" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="1" seconds="60" minor="0" major="1" match="0"></penalty>
+      <misc gb="1" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="28" name="Willy Passavia" checkname="PASSAVIA,WILLY" gp="1" code="28">
+      <shots g="1" a="1" sh="2" sog="1" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="1" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="29" name="Lee Zink" checkname="ZINK,LEE" gp="1" gs="1" pos="d" code="29">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="2" dc="0" turnover="0" ct="0" minutes="60" seconds="0"></misc>
+    </player>
+    <player uni="30" name="Jim Sbarra" checkname="SBARRA,JIM" gp="1" code="30">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc facewon="0" facelost="2" gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="31" name="Mark Foster" checkname="FOSTER,MARK" gp="1" code="31">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="32" name="Carrington King" checkname="KING,CARRINGTON" gp="1" code="32">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="33" name="Jamie Daue" checkname="DAUE,JAMIE" gp="1" code="33">
+      <shots g="0" a="0" sh="1" sog="1" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="1" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="34" name="Ryan Moran" checkname="MORAN,RYAN" gp="1" code="34">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="35" name="Nate Watkins" checkname="WATKINS,NATE" gp="1" code="35">
+      <shots g="2" a="1" sh="9" sog="8" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="1" fg="1" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="2" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="36" name="Jeremy Pastula" checkname="PASTULA,JEREMY" gp="0" code="36"></player>
+    <player uni="37" name="T.C. Behm" checkname="C. BEHM,T" gp="1" code="37">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="4" seconds="5"></misc>
+      <goalie gp="1" gs="0" minutes="4:05" ga="3" saves="1" savebyprd="0,0,0,1" sho="0" cbosho="0" ppg="0" shg="0" eng="0" sog="0"></goalie>
+    </player>
+    <player uni="38" name="Andrew Schwartzman" checkname="SCHWARTZMAN,ANDREW" gp="1" code="38">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="40" name="Chris Passavia" checkname="PASSAVIA,CHRIS" gp="1" gs="1" pos="d" code="40">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="2" dc="0" turnover="0" ct="0" minutes="60" seconds="0"></misc>
+    </player>
+    <player uni="41" name="Dave Matz" checkname="MATZ,DAVE" gp="1" code="41">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="42" name="Michael Howley" checkname="HOWLEY,MICHAEL" gp="1" gs="1" pos="d" code="42">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="2" dc="0" turnover="0" ct="0" minutes="60" seconds="0"></misc>
+    </player>
+    <player uni="44" name="Frank Luciano" checkname="LUCIANO,FRANK" gp="1" code="44">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="45" name="Tyler Hereth" checkname="HERETH,TYLER" gp="1" code="45">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="1" seconds="60" minor="0" major="1" match="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="46" name="Matt Rzepkowski" checkname="RZEPKOWSKI,MATT" gp="0" code="46"></player>
+    <player uni="47" name="Alex Poole" checkname="POOLE,ALEX" gp="1" code="47">
+      <shots g="1" a="0" sh="4" sog="3" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="1" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0"></penalty>
+      <misc gb="2" dc="0" turnover="0" ct="0" minutes="0" seconds="0"></misc>
+    </player>
+    <player uni="TM" name="TEAM" checkname="TEAM" gp="0" code="TM"></player>
+  </team>
+  <scores>
+    <score number="1" vh="H" id="MARYLAND" prd="1" time="13:09" type="EV"
+           name="Nate Watkins" seasong="1"></score>
+    <score number="2" vh="H" id="MARYLAND" prd="1" time="09:34" type="EV"
+           name="J.R. Bordley" seasong="1" assist1="Dan LaMonica"></score>
+    <score number="3" vh="H" id="MARYLAND" prd="1" time="02:54" type="EV"
+           name="Matt Brock" seasong="1" assist1="Dan LaMonica"></score>
+    <score number="4" vh="H" id="MARYLAND" prd="2" time="12:55" type="EV"
+           name="Nate Watkins" seasong="2" assist1="Dan LaMonica"></score>
+    <score number="5" vh="H" id="MARYLAND" prd="2" time="06:46" type="EV"
+           name="Alex Poole" seasong="1"></score>
+    <score number="6" vh="H" id="MARYLAND" prd="2" time="05:36" type="EV"
+           name="Dan LaMonica" seasong="1" assist1="Nate Watkins"></score>
+    <score number="7" vh="H" id="MARYLAND" prd="3" time="11:07" type="EV"
+           name="Dan LaMonica" seasong="2" assist1="Paul Gillette"></score>
+    <score number="8" vh="H" id="MARYLAND" prd="3" time="09:57" type="EV"
+           name="Craig Hochstadt" seasong="1"></score>
+    <score number="9" vh="H" id="MARYLAND" prd="3" time="08:58" type="EV"
+           name="Willy Passavia" seasong="1"></score>
+    <score number="10" vh="V" id="HOBART" prd="4" time="14:02" type="EV"
+           name="Scott Harvey" seasong="1"></score>
+    <score number="11" vh="V" id="HOBART" prd="4" time="12:04" type="EV"
+           name="Dan Cesere" seasong="1"></score>
+    <score number="12" vh="H" id="MARYLAND" prd="4" time="11:10" type="EV"
+           name="Mike Mollot" seasong="1" assist1="Willy Passavia"></score>
+    <score number="13" vh="V" id="HOBART" prd="4" time="10:17" type="PP"
+           name="Scott Harvey" seasong="2" assist1="John Bogosian"></score>
+    <score number="14" vh="H" id="MARYLAND" prd="4" time="06:56" type="EV"
+           name="Mike Mollot" seasong="2"></score>
+    <score number="15" vh="H" id="MARYLAND" prd="4" time="06:18" type="EV"
+           name="Mike LaMonica" seasong="1" assist1="Mike Mollot"></score>
+    <score number="16" vh="H" id="MARYLAND" prd="4" time="03:41" type="PP"
+           name="Mike Mollot" seasong="3" assist1="Mike Morsell"></score>
+    <score number="17" vh="V" id="HOBART" prd="4" time="01:12" type="EV"
+           name="John Bogosian" seasong="1" assist1="Kris Shore"></score>
+    <score number="18" vh="V" id="HOBART" prd="4" time="00:58" type="EV"
+           name="Scott Harvey" seasong="3"></score>
+    <score number="19" vh="V" id="HOBART" prd="4" time="00:33" type="EV"
+           name="Scott Harvey" seasong="4"></score>
+  </scores>
+  <penalties>
+    <pen number="1" vh="V" id="HOBART" prd="1" time="09:09" pp="Y" type="MINOR" seconds="30" name="Scott Harvey" abbrev="OFF" desc="OFF"></pen>
+    <pen number="2" vh="V" id="HOBART" prd="1" time="00:59" pp="Y" type="MAJOR" seconds="60" name="Brad Neuberth" abbrev="SL" desc="SL"></pen>
+    <pen number="3" vh="H" id="MARYLAND" prd="2" time="12:40" pp="Y" type="MINOR" seconds="30" name="Brett Harper" abbrev="PUSH" desc="PUSH"></pen>
+    <pen number="4" vh="V" id="HOBART" prd="2" time="01:40" pp="Y" type="MINOR" seconds="30" name="Chris Scanlan" abbrev="PUSH" desc="PUSH"></pen>
+    <pen number="5" vh="V" id="HOBART" prd="3" time="02:10" pp="Y" type="MAJOR" seconds="60" name="John Summers" abbrev="UNRO" desc="UNRO"></pen>
+    <pen number="6" vh="H" id="MARYLAND" prd="3" time="00:21" pp="Y" type="MAJOR" seconds="60" name="Mike Morsell" abbrev="SL" desc="SL"></pen>
+    <pen number="7" vh="H" id="MARYLAND" prd="4" time="10:33" pp="Y" type="MAJOR" seconds="60" name="Mike Mollot" abbrev="SL" desc="SL"></pen>
+    <pen number="8" vh="H" id="MARYLAND" prd="4" time="08:21" pp="Y" type="MAJOR" seconds="60" name="Matt Brock" abbrev="BCHK" desc="Bodychecking"></pen>
+    <pen number="9" vh="V" id="HOBART" prd="4" time="04:05" pp="Y" type="MAJOR" seconds="60" name="Scott Ditzell" abbrev="UNRO" desc="UNRO"></pen>
+    <pen number="10" vh="H" id="MARYLAND" prd="4" time="00:33" pp="Y" type="MAJOR" seconds="60" name="Tyler Hereth" abbrev="SL" desc="SL"></pen>
+  </penalties>
+  <goaliechanges>
+    <goaliechange vh="V" id="HOBART" prd="1" time="15:00" uni="10" name="Mike Borsz"></goaliechange>
+    <goaliechange vh="H" id="MARYLAND" prd="1" time="15:00" uni="3" name="Danny McCormick"></goaliechange>
+    <goaliechange vh="H" id="MARYLAND" prd="4" time="04:05" uni="37" name="T.C. Behm"></goaliechange>
+  </goaliechanges>
+  <plays format="summary">
+    <period number="1">
+      <play number="0" vh="V" team="HOBART" clock="15:00" action="GOALIE" text="Mike Borsz at goalie for HOBART."></play>
+      <play number="1" vh="H" team="MARYLAND" clock="15:00" action="GOALIE" text="Danny McCormick at goalie for MARYLAND."></play>
+      <play number="2" vh="H" team="MARYLAND" clock="15:00" action="FACE" text="Faceoff Tim Booth vs Brian Carroll won by MARYLAND."></play>
+      <play number="3" vh="H" team="MARYLAND" clock="15:00" action="GB" text="Ground ball pickup by MARYLAND Paul Gillette."></play>
+      <play number="4" vh="V" team="HOBART" clock="13:48" action="GB" text="Ground ball pickup by HOBART Tim Booth."></play>
+      <play number="5" vh="H" team="MARYLAND" clock="13:44" action="GB" text="Ground ball pickup by MARYLAND Mike Mollot."></play>
+      <play number="6" vh="V" team="HOBART" clock="13:33" action="CLEAR" text="Clear attempt by HOBART."></play>
+      <play number="7" vh="H" team="MARYLAND" clock="13:21" action="SHOT" text="Shot by MARYLAND Mike LaMonica WIDE RIGHT."></play>
+      <play number="8" vh="H" team="MARYLAND" clock="13:09" action="GOAL" vscore="0" hscore="1" text="GOAL by MARYLAND Nate Watkins (FIRST GOAL), goal number 1 for season."></play>
+      <currentscore vscore="0" hscore="1"></currentscore>
+      <play number="9" vh="H" team="MARYLAND" clock="13:09" action="FACE" text="Faceoff Tim Booth vs Brian Carroll won by MARYLAND."></play>
+      <play number="10" vh="H" team="MARYLAND" clock="12:16" action="SHOT" text="Shot by MARYLAND Mike Morsell WIDE."></play>
+      <play number="11" vh="V" team="HOBART" clock="11:22" action="GB" text="Ground ball pickup by HOBART Greg McCarthy."></play>
+      <play number="12" vh="V" team="HOBART" clock="11:15" action="CLEAR" text="Clear attempt by HOBART."></play>
+      <play number="13" vh="H" team="MARYLAND" clock="11:03" action="CLEAR" text="Clear attempt by MARYLAND good."></play>
+      <play number="14" vh="V" team="HOBART" clock="10:54" action="GB" text="Ground ball pickup by HOBART Mike Borsz."></play>
+      <play number="15" vh="V" team="HOBART" clock="10:50" action="CLEAR" text="Clear attempt by HOBART."></play>
+      <play number="16" vh="H" team="MARYLAND" clock="09:34" action="GOAL" vscore="0" hscore="2" text="GOAL by MARYLAND J.R. Bordley, Assist by Dan LaMonica, goal number 1 for season."></play>
+      <currentscore vscore="0" hscore="2"></currentscore>
+      <play number="17" vh="V" team="HOBART" clock="09:34" action="FACE" text="Faceoff Tim Booth vs Brian Carroll won by HOBART."></play>
+      <play number="18" vh="V" team="HOBART" clock="09:15" action="GB" text="Ground ball pickup by HOBART Brad Neuberth."></play>
+      <play number="19" vh="V" team="HOBART" clock="09:09" action="PEN" text="Penalty on HOBART Scott Harvey (OFF/0:30) Extra-man opportunity."></play>
+      <play number="20" vh="H" team="MARYLAND" clock="08:33" action="SHOT" text="Shot by MARYLAND Mike LaMonica WIDE RIGHT."></play>
+      <play number="21" vh="H" team="MARYLAND" clock="08:01" action="SHOT" text="Shot by MARYLAND Mike LaMonica WIDE."></play>
+      <play number="22" vh="V" team="HOBART" clock="07:18" action="CLEAR" text="Clear attempt by HOBART good."></play>
+      <play number="23" vh="V" team="HOBART" clock="06:33" action="SHOT" text="Shot by HOBART Jon Tammaro BLOCKED."></play>
+      <play number="24" vh="V" team="HOBART" clock="06:21" action="SHOT" text="Shot by HOBART Chris Scanlan, SAVE Danny McCormick."></play>
+      <play number="25" vh="H" team="MARYLAND" clock="06:12" action="CLEAR" text="Clear attempt by MARYLAND good."></play>
+      <play number="26" vh="V" team="HOBART" clock="06:05" action="GB" text="Ground ball pickup by HOBART Greg McCarthy."></play>
+      <play number="27" vh="V" team="HOBART" clock="05:56" action="CLEAR" text="Clear attempt by HOBART good."></play>
+      <play number="28" vh="H" team="MARYLAND" clock="05:31" action="CLEAR" text="Clear attempt by MARYLAND good."></play>
+      <play number="29" vh="H" team="MARYLAND" clock="05:28" action="SHOT" text="Shot by MARYLAND Nate Watkins, SAVE Mike Borsz."></play>
+      <play number="30" vh="H" team="MARYLAND" clock="05:18" action="GB" text="Ground ball pickup by MARYLAND Mike Mollot."></play>
+      <play number="31" vh="H" team="MARYLAND" clock="05:11" action="SHOT" text="Shot by MARYLAND Nate Watkins, SAVE Mike Borsz."></play>
+      <play number="32" vh="V" team="HOBART" clock="05:11" action="GB" text="Ground ball pickup by HOBART Mike Borsz."></play>
+      <play number="33" vh="H" team="MARYLAND" clock="04:50" action="GB" text="Ground ball pickup by MARYLAND Mike Mollot."></play>
+      <play number="34" vh="H" team="MARYLAND" clock="04:16" action="SHOT" text="Shot by MARYLAND Mike LaMonica, SAVE Mike Borsz."></play>
+      <play number="35" vh="H" team="MARYLAND" clock="03:57" action="SHOT" text="Shot by MARYLAND J.R. Bordley HIGH."></play>
+      <play number="36" vh="H" team="MARYLAND" clock="03:43" action="SHOT" text="Shot by MARYLAND Dan LaMonica, SAVE Mike Borsz."></play>
+      <play number="37" vh="H" team="MARYLAND" clock="03:03" action="SHOT" text="Shot by MARYLAND Dan LaMonica HIGH."></play>
+      <play number="38" vh="H" team="MARYLAND" clock="02:54" action="GOAL" vscore="0" hscore="3" text="GOAL by MARYLAND Matt Brock, Assist by Dan LaMonica, goal number 1 for season."></play>
+      <currentscore vscore="0" hscore="3"></currentscore>
+      <play number="39" vh="H" team="MARYLAND" clock="02:54" action="FACE" text="Faceoff Cam Thompson vs Brian Carroll won by MARYLAND."></play>
+      <play number="40" vh="H" team="MARYLAND" clock="02:20" action="SHOT" text="Shot by MARYLAND Willy Passavia WIDE LEFT."></play>
+      <play number="41" vh="H" team="MARYLAND" clock="02:03" action="SHOT" text="Shot by MARYLAND Mike LaMonica, SAVE Mike Borsz."></play>
+      <play number="42" vh="H" team="MARYLAND" clock="01:51" action="SHOT" text="Shot by MARYLAND J.R. Bordley, SAVE Mike Borsz."></play>
+      <play number="43" vh="H" team="MARYLAND" clock="01:39" action="GB" text="Ground ball pickup by MARYLAND Dan LaMonica."></play>
+      <play number="44" vh="H" team="MARYLAND" clock="01:36" action="SHOT" text="Shot by MARYLAND Mike LaMonica WIDE RIGHT."></play>
+      <play number="45" vh="H" team="MARYLAND" clock="01:20" action="GB" text="Ground ball pickup by MARYLAND Mike LaMonica."></play>
+      <play number="46" vh="H" team="MARYLAND" clock="01:13" action="SHOT" text="Shot by MARYLAND Matt Brock HIT POST."></play>
+      <play number="47" vh="H" team="MARYLAND" clock="01:00" action="SHOT" text="Shot by MARYLAND Mike Mollot, SAVE Mike Borsz."></play>
+      <play number="48" vh="V" team="HOBART" clock="00:59" action="PEN" text="Penalty on HOBART Brad Neuberth (SL/1:00) Extra-man opportunity."></play>
+      <play number="49" vh="H" team="MARYLAND" clock="00:34" action="TOUT" text="Timeout by MARYLAND."></play>
+      <play number="50" vh="V" team="HOBART" clock="00:03" action="TOUT" text="Timeout by HOBART."></play>
+      <play number="51" clock="00:00" action="END-PRD" text=""></play>
+    </period>
+    <period number="2">
+      <play number="52" clock="15:00" action="PRD" text=""></play>
+      <play number="53" vh="V" team="HOBART" clock="14:37" action="SHOT" text="Shot by HOBART Scott Harvey WIDE RIGHT."></play>
+      <play number="54" vh="V" team="HOBART" clock="14:27" action="SHOT" text="Shot by HOBART T.J. Rogers, SAVE Danny McCormick."></play>
+      <play number="55" vh="H" team="MARYLAND" clock="13:39" action="SHOT" text="Shot by MARYLAND Alex Poole, SAVE Mike Borsz."></play>
+      <play number="56" vh="H" team="MARYLAND" clock="13:33" action="GB" text="Ground ball pickup by MARYLAND J.R. Bordley."></play>
+      <play number="57" vh="H" team="MARYLAND" clock="13:14" action="SHOT" text="Shot by MARYLAND Nate Watkins, SAVE Mike Borsz."></play>
+      <play number="58" vh="V" team="HOBART" clock="13:06" action="GB" text="Ground ball pickup by HOBART Christian Gould."></play>
+      <play number="59" vh="H" team="MARYLAND" clock="12:58" action="GB" text="Ground ball pickup by MARYLAND J.R. Bordley."></play>
+      <play number="60" vh="H" team="MARYLAND" clock="12:55" action="GOAL" vscore="0" hscore="4" text="GOAL by MARYLAND Nate Watkins, Assist by Dan LaMonica, goal number 2 for season."></play>
+      <currentscore vscore="0" hscore="4"></currentscore>
+      <play number="61" vh="V" team="HOBART" clock="12:50" action="FACE" text="Faceoff Tim Booth vs Brian Carroll won by HOBART."></play>
+      <play number="62" vh="V" team="HOBART" clock="12:50" action="GB" text="Ground ball pickup by HOBART Tim Booth."></play>
+      <play number="63" vh="H" team="MARYLAND" clock="12:40" action="PEN" text="Penalty on MARYLAND Brett Harper (PUSH/0:30) Extra-man opportunity."></play>
+      <play number="64" vh="V" team="HOBART" clock="12:30" action="GB" text="Ground ball pickup by HOBART Tim Booth."></play>
+      <play number="65" vh="H" team="MARYLAND" clock="12:01" action="CLEAR" text="Clear attempt by MARYLAND."></play>
+      <play number="66" vh="H" team="MARYLAND" clock="12:01" action="CLEAR" text="Clear attempt by MARYLAND good."></play>
+      <play number="67" vh="V" team="HOBART" clock="11:42" action="SHOT" text="Shot by HOBART John Summers WIDE."></play>
+      <play number="68" vh="V" team="HOBART" clock="11:31" action="SHOT" text="Shot by HOBART John Summers WIDE RIGHT."></play>
+      <play number="69" vh="V" team="HOBART" clock="10:47" action="GB" text="Ground ball pickup by HOBART Nate Hill."></play>
+      <play number="70" vh="V" team="HOBART" clock="10:13" action="SHOT" text="Shot by HOBART Nate Molinari, SAVE Danny McCormick."></play>
+      <play number="71" vh="H" team="MARYLAND" clock="09:54" action="CLEAR" text="Clear attempt by MARYLAND good."></play>
+      <play number="72" vh="H" team="MARYLAND" clock="09:50" action="GB" text="Ground ball pickup by MARYLAND Danny McCormick."></play>
+      <play number="73" vh="V" team="HOBART" clock="09:41" action="CLEAR" text="Clear attempt by HOBART good."></play>
+      <play number="74" vh="H" team="MARYLAND" clock="09:09" action="GB" text="Ground ball pickup by MARYLAND Chris Passavia."></play>
+      <play number="75" vh="H" team="MARYLAND" clock="09:06" action="CLEAR" text="Clear attempt by MARYLAND good."></play>
+      <play number="76" vh="V" team="HOBART" clock="08:25" action="CLEAR" text="Clear attempt by HOBART good."></play>
+      <play number="77" vh="H" team="MARYLAND" clock="08:11" action="GB" text="Ground ball pickup by MARYLAND Lee Zink."></play>
+      <play number="78" vh="H" team="MARYLAND" clock="07:50" action="CLEAR" text="Clear attempt by MARYLAND good."></play>
+      <play number="79" vh="V" team="HOBART" clock="07:47" action="CLEAR" text="Clear attempt by HOBART."></play>
+      <play number="80" vh="H" team="MARYLAND" clock="07:45" action="SHOT" text="Shot by MARYLAND Nate Watkins WIDE."></play>
+      <play number="81" vh="V" team="HOBART" clock="07:35" action="CLEAR" text="Clear attempt by HOBART."></play>
+      <play number="82" vh="H" team="MARYLAND" clock="06:46" action="GOAL" vscore="0" hscore="5" text="GOAL by MARYLAND Alex Poole, goal number 1 for season."></play>
+      <currentscore vscore="0" hscore="5"></currentscore>
+      <play number="83" vh="H" team="MARYLAND" clock="06:45" action="FACE" text="Faceoff Tim Booth vs Brian Carroll won by MARYLAND."></play>
+      <play number="84" vh="H" team="MARYLAND" clock="06:43" action="GB" text="Ground ball pickup by MARYLAND Brian Carroll."></play>
+      <play number="85" vh="H" team="MARYLAND" clock="06:09" action="CLEAR" text="Clear attempt by MARYLAND good."></play>
+      <play number="86" vh="H" team="MARYLAND" clock="05:46" action="GB" text="Ground ball pickup by MARYLAND Nate Watkins."></play>
+      <play number="87" vh="H" team="MARYLAND" clock="05:36" action="GOAL" vscore="0" hscore="6" text="GOAL by MARYLAND Dan LaMonica, Assist by Nate Watkins, goal number 1 for season."></play>
+      <currentscore vscore="0" hscore="6"></currentscore>
+      <play number="88" vh="H" team="MARYLAND" clock="05:35" action="FACE" text="Faceoff Tim Booth vs Brian Carroll won by MARYLAND."></play>
+      <play number="89" vh="H" team="MARYLAND" clock="05:37" action="GB" text="Ground ball pickup by MARYLAND Brian Carroll."></play>
+      <play number="90" vh="H" team="MARYLAND" clock="04:50" action="GB" text="Ground ball pickup by MARYLAND Jamie Daue."></play>
+      <play number="91" vh="H" team="MARYLAND" clock="04:48" action="SHOT" text="Shot by MARYLAND Jamie Daue, SAVE Mike Borsz."></play>
+      <play number="92" vh="V" team="HOBART" clock="04:22" action="CLEAR" text="Clear attempt by HOBART good."></play>
+      <play number="93" vh="V" team="HOBART" clock="03:33" action="SHOT" text="Shot by HOBART Dave Sprattan BLOCKED."></play>
+      <play number="94" vh="V" team="HOBART" clock="03:28" action="GB" text="Ground ball pickup by HOBART Nate Hill."></play>
+      <play number="95" vh="V" team="HOBART" clock="03:21" action="SHOT" text="Shot by HOBART Nate Molinari BLOCKED."></play>
+      <play number="96" vh="H" team="MARYLAND" clock="03:00" action="CLEAR" text="Clear attempt by MARYLAND good."></play>
+      <play number="97" vh="H" team="MARYLAND" clock="02:27" action="SHOT" text="Shot by MARYLAND Matt Brock WIDE RIGHT."></play>
+      <play number="98" vh="V" team="HOBART" clock="02:00" action="GB" text="Ground ball pickup by HOBART Christian Gould."></play>
+      <play number="99" vh="V" team="HOBART" clock="01:55" action="CLEAR" text="Clear attempt by HOBART good."></play>
+      <play number="100" vh="H" team="MARYLAND" clock="01:43" action="GB" text="Ground ball pickup by MARYLAND Andy Burman."></play>
+      <play number="101" vh="V" team="HOBART" clock="01:40" action="PEN" text="Penalty on HOBART Chris Scanlan (PUSH/0:30) Extra-man opportunity."></play>
+      <play number="102" vh="H" team="MARYLAND" clock="01:11" action="SHOT" text="Shot by MARYLAND Mike Morsell WIDE RIGHT."></play>
+      <play number="103" vh="V" team="HOBART" clock="00:59" action="TOUT" text="Timeout by HOBART."></play>
+      <play number="104" vh="H" team="MARYLAND" clock="00:27" action="TOUT" text="Timeout by MARYLAND."></play>
+      <play number="105" vh="V" team="HOBART" clock="00:03" action="SHOT" text="Shot by HOBART Tim Booth, SAVE Danny McCormick."></play>
+      <play number="106" vh="H" team="MARYLAND" clock="00:00" action="GB" text="Ground ball pickup by MARYLAND Lee Zink."></play>
+      <play number="107" clock="00:00" action="END-PRD" text=""></play>
+    </period>
+    <period number="3">
+      <play number="108" clock="15:00" action="PRD" text=""></play>
+      <play number="109" vh="H" team="MARYLAND" clock="14:59" action="FACE" text="Faceoff Tim Booth vs Brian Carroll won by MARYLAND."></play>
+      <play number="110" vh="H" team="MARYLAND" clock="14:48" action="GB" text="Ground ball pickup by MARYLAND Paul Gillette."></play>
+      <play number="111" vh="H" team="MARYLAND" clock="14:06" action="SHOT" text="Shot by MARYLAND Nate Watkins, SAVE Mike Borsz."></play>
+      <play number="112" vh="V" team="HOBART" clock="13:54" action="GB" text="Ground ball pickup by HOBART Christian Gould."></play>
+      <play number="113" vh="V" team="HOBART" clock="13:43" action="GB" text="Ground ball pickup by HOBART Brad Neuberth."></play>
+      <play number="114" vh="V" team="HOBART" clock="13:39" action="GB" text="Ground ball pickup by HOBART Scott Harvey."></play>
+      <play number="115" vh="V" team="HOBART" clock="13:32" action="CLEAR" text="Clear attempt by HOBART."></play>
+      <play number="116" vh="H" team="MARYLAND" clock="13:23" action="GB" text="Ground ball pickup by MARYLAND Chris Passavia."></play>
+      <play number="117" vh="H" team="MARYLAND" clock="13:11" action="CLEAR" text="Clear attempt by MARYLAND."></play>
+      <play number="118" vh="V" team="HOBART" clock="13:04" action="GB" text="Ground ball pickup by HOBART Greg McCarthy."></play>
+      <play number="119" vh="V" team="HOBART" clock="13:04" action="SHOT" text="Shot by HOBART Shawn Powers WIDE LEFT."></play>
+      <play number="120" vh="V" team="HOBART" clock="12:57" action="CLEAR" text="Clear attempt by HOBART good."></play>
+      <play number="121" vh="V" team="HOBART" clock="12:36" action="SHOT" text="Shot by HOBART Nate Hill, SAVE Danny McCormick."></play>
+      <play number="122" vh="H" team="MARYLAND" clock="12:18" action="CLEAR" text="Clear attempt by MARYLAND good."></play>
+      <play number="123" vh="V" team="HOBART" clock="11:40" action="GB" text="Ground ball pickup by HOBART Shawn Powers."></play>
+      <play number="124" vh="V" team="HOBART" clock="11:37" action="CLEAR" text="Clear attempt by HOBART good."></play>
+      <play number="125" vh="V" team="HOBART" clock="11:30" action="SHOT" text="Shot by HOBART Chris Scanlan, SAVE Danny McCormick."></play>
+      <play number="126" vh="H" team="MARYLAND" clock="11:12" action="CLEAR" text="Clear attempt by MARYLAND good."></play>
+      <play number="127" vh="H" team="MARYLAND" clock="11:07" action="GOAL" vscore="0" hscore="7" text="GOAL by MARYLAND Dan LaMonica, Assist by Paul Gillette, goal number 2 for season."></play>
+      <currentscore vscore="0" hscore="7"></currentscore>
+      <play number="128" vh="H" team="MARYLAND" clock="11:07" action="FACE" text="Faceoff Tim Booth vs Brian Carroll won by MARYLAND."></play>
+      <play number="129" vh="H" team="MARYLAND" clock="11:07" action="GB" text="Ground ball pickup by MARYLAND Brian Carroll."></play>
+      <play number="130" vh="H" team="MARYLAND" clock="10:26" action="SHOT" text="Shot by MARYLAND Craig Hochstadt WIDE LEFT."></play>
+      <play number="131" vh="H" team="MARYLAND" clock="09:57" action="GOAL" vscore="0" hscore="8" text="GOAL by MARYLAND Craig Hochstadt, goal number 1 for season."></play>
+      <currentscore vscore="0" hscore="8"></currentscore>
+      <play number="132" vh="H" team="MARYLAND" clock="09:55" action="FACE" text="Faceoff Cam Thompson vs Brian Carroll won by MARYLAND."></play>
+      <play number="133" vh="H" team="MARYLAND" clock="09:48" action="GB" text="Ground ball pickup by MARYLAND Brian Carroll."></play>
+      <play number="134" vh="H" team="MARYLAND" clock="08:58" action="GOAL" vscore="0" hscore="9" text="GOAL by MARYLAND Willy Passavia, goal number 1 for season."></play>
+      <currentscore vscore="0" hscore="9"></currentscore>
+      <play number="135" vh="V" team="HOBART" clock="08:56" action="FACE" text="Faceoff Tim Booth vs Brian Carroll won by HOBART."></play>
+      <play number="136" vh="V" team="HOBART" clock="08:56" action="GB" text="Ground ball pickup by HOBART Brad Neuberth."></play>
+      <play number="137" vh="V" team="HOBART" clock="08:52" action="GB" text="Ground ball pickup by HOBART Scott Harvey."></play>
+      <play number="138" vh="V" team="HOBART" clock="08:34" action="GB" text="Ground ball pickup by HOBART Jon Tammaro."></play>
+      <play number="139" vh="V" team="HOBART" clock="08:01" action="CLEAR" text="Clear attempt by HOBART good."></play>
+      <play number="140" vh="V" team="HOBART" clock="07:41" action="SHOT" text="Shot by HOBART Tim Booth, SAVE Danny McCormick."></play>
+      <play number="141" vh="H" team="MARYLAND" clock="07:34" action="GB" text="Ground ball pickup by MARYLAND Danny McCormick."></play>
+      <play number="142" vh="H" team="MARYLAND" clock="07:22" action="CLEAR" text="Clear attempt by MARYLAND good."></play>
+      <play number="143" vh="H" team="MARYLAND" clock="07:15" action="GB" text="Ground ball pickup by MARYLAND J.R. Bordley."></play>
+      <play number="144" vh="V" team="HOBART" clock="06:54" action="GB" text="Ground ball pickup by HOBART T.J. Rogers."></play>
+      <play number="145" vh="V" team="HOBART" clock="06:47" action="CLEAR" text="Clear attempt by HOBART good."></play>
+      <play number="146" vh="H" team="MARYLAND" clock="06:03" action="CLEAR" text="Clear attempt by MARYLAND good."></play>
+      <play number="147" vh="H" team="MARYLAND" clock="05:36" action="SHOT" text="Shot by MARYLAND Nate Watkins, SAVE Mike Borsz."></play>
+      <play number="148" vh="H" team="MARYLAND" clock="05:24" action="GB" text="Ground ball pickup by MARYLAND Mike LaMonica."></play>
+      <play number="149" vh="H" team="MARYLAND" clock="05:21" action="SHOT" text="Shot by MARYLAND Mike LaMonica HIGH."></play>
+      <play number="150" vh="H" team="MARYLAND" clock="05:17" action="SHOT" text="Shot by MARYLAND Mike LaMonica WIDE LEFT."></play>
+      <play number="151" vh="V" team="HOBART" clock="05:08" action="GB" text="Ground ball pickup by HOBART Mike Borsz."></play>
+      <play number="152" vh="V" team="HOBART" clock="04:55" action="CLEAR" text="Clear attempt by HOBART."></play>
+      <play number="153" vh="H" team="MARYLAND" clock="04:48" action="GB" text="Ground ball pickup by MARYLAND Michael Howley."></play>
+      <play number="154" vh="H" team="MARYLAND" clock="04:40" action="SHOT" text="Shot by MARYLAND J.R. Bordley, SAVE Mike Borsz."></play>
+      <play number="155" vh="H" team="MARYLAND" clock="04:25" action="GB" text="Ground ball pickup by MARYLAND Alex Poole."></play>
+      <play number="156" vh="H" team="MARYLAND" clock="03:55" action="GB" text="Ground ball pickup by MARYLAND Mike LaMonica."></play>
+      <play number="157" vh="H" team="MARYLAND" clock="03:52" action="SHOT" text="Shot by MARYLAND Mike Mollot, SAVE Mike Borsz."></play>
+      <play number="158" vh="V" team="HOBART" clock="03:41" action="CLEAR" text="Clear attempt by HOBART good."></play>
+      <play number="159" vh="H" team="MARYLAND" clock="02:44" action="GB" text="Ground ball pickup by MARYLAND Michael Howley."></play>
+      <play number="160" vh="H" team="MARYLAND" clock="02:43" action="CLEAR" text="Clear attempt by MARYLAND good."></play>
+      <play number="161" vh="H" team="MARYLAND" clock="02:39" action="SHOT" text="Shot by MARYLAND Alex Poole, SAVE Mike Borsz."></play>
+      <play number="162" vh="V" team="HOBART" clock="02:10" action="PEN" text="Penalty on HOBART John Summers (UNRO/1:00) Extra-man opportunity."></play>
+      <play number="163" vh="V" team="HOBART" clock="01:27" action="SHOT" text="Shot by HOBART John Bogosian, SAVE Danny McCormick."></play>
+      <play number="164" vh="H" team="MARYLAND" clock="00:21" action="PEN" text="Penalty on MARYLAND Mike Morsell (SL/1:00) Extra-man opportunity."></play>
+      <play number="165" clock="00:00" action="END-PRD" text=""></play>
+    </period>
+    <period number="4">
+      <play number="166" clock="15:00" action="PRD" text=""></play>
+      <play number="167" vh="V" team="HOBART" clock="14:46" action="SHOT" text="Shot by HOBART John Bogosian, SAVE Danny McCormick."></play>
+      <play number="168" vh="V" team="HOBART" clock="14:28" action="SHOT" text="Shot by HOBART Tim Booth, SAVE Danny McCormick."></play>
+      <play number="169" vh="V" team="HOBART" clock="14:10" action="GB" text="Ground ball pickup by HOBART Geoff Zbikowski."></play>
+      <play number="170" vh="V" team="HOBART" clock="14:06" action="SHOT" text="Shot by HOBART John Bogosian, SAVE Danny McCormick."></play>
+      <play number="171" vh="H" team="MARYLAND" clock="14:06" action="CLEAR" text="Clear attempt by MARYLAND."></play>
+      <play number="172" vh="V" team="HOBART" clock="14:02" action="GOAL" vscore="1" hscore="9" text="GOAL by HOBART Scott Harvey, goal number 1 for season."></play>
+      <currentscore vscore="1" hscore="9"></currentscore>
+      <play number="173" vh="H" team="MARYLAND" clock="13:59" action="FACE" text="Faceoff Tim Booth vs Brian Carroll won by MARYLAND."></play>
+      <play number="174" vh="H" team="MARYLAND" clock="13:59" action="GB" text="Ground ball pickup by MARYLAND Paul Gillette."></play>
+      <play number="175" vh="H" team="MARYLAND" clock="13:26" action="SHOT" text="Shot by MARYLAND Alex Poole HIGH."></play>
+      <play number="176" vh="H" team="MARYLAND" clock="12:58" action="SHOT" text="Shot by MARYLAND Nate Watkins, SAVE Mike Borsz."></play>
+      <play number="177" vh="V" team="HOBART" clock="12:45" action="CLEAR" text="Clear attempt by HOBART."></play>
+      <play number="178" vh="V" team="HOBART" clock="12:21" action="SHOT" text="Shot by HOBART Chris Scanlan, SAVE Danny McCormick."></play>
+      <play number="179" vh="V" team="HOBART" clock="12:13" action="GB" text="Ground ball pickup by HOBART Scott Harvey."></play>
+      <play number="180" vh="H" team="MARYLAND" clock="12:09" action="GB" text="Ground ball pickup by MARYLAND Nate Watkins."></play>
+      <play number="181" vh="H" team="MARYLAND" clock="12:08" action="CLEAR" text="Clear attempt by MARYLAND."></play>
+      <play number="182" vh="V" team="HOBART" clock="12:08" action="GB" text="Ground ball pickup by HOBART Scott Harvey."></play>
+      <play number="183" vh="V" team="HOBART" clock="12:04" action="GOAL" vscore="2" hscore="9" text="GOAL by HOBART Dan Cesere, goal number 1 for season."></play>
+      <currentscore vscore="2" hscore="9"></currentscore>
+      <play number="184" vh="V" team="HOBART" clock="12:04" action="FACE" text="Faceoff Tim Booth vs Brian Carroll won by HOBART."></play>
+      <play number="185" vh="V" team="HOBART" clock="11:50" action="GB" text="Ground ball pickup by HOBART Tim Booth."></play>
+      <play number="186" vh="V" team="HOBART" clock="11:35" action="SHOT" text="Shot by HOBART T.J. Rogers WIDE."></play>
+      <play number="187" vh="V" team="HOBART" clock="11:28" action="FPS" text="Shot by HOBART Nate Hill, SAVE Danny McCormick {free position shot}."></play>
+      <play number="188" vh="H" team="MARYLAND" clock="11:20" action="CLEAR" text="Clear attempt by MARYLAND good."></play>
+      <play number="189" vh="H" team="MARYLAND" clock="11:10" action="GOAL" vscore="2" hscore="10" text="GOAL by MARYLAND Mike Mollot, Assist by Willy Passavia, goal number 1 for season."></play>
+      <currentscore vscore="2" hscore="10"></currentscore>
+      <play number="190" vh="H" team="MARYLAND" clock="11:10" action="FACE" text="Faceoff Cam Thompson vs Brian Carroll won by MARYLAND."></play>
+      <play number="191" vh="H" team="MARYLAND" clock="11:10" action="GB" text="Ground ball pickup by MARYLAND Brett Harper."></play>
+      <play number="192" vh="V" team="HOBART" clock="10:40" action="CLEAR" text="Clear attempt by HOBART good."></play>
+      <play number="193" vh="V" team="HOBART" clock="10:36" action="SHOT" text="Shot by HOBART Scott Harvey BLOCKED."></play>
+      <play number="194" vh="H" team="MARYLAND" clock="10:33" action="PEN" text="Penalty on MARYLAND Mike Mollot (SL/1:00) Extra-man opportunity."></play>
+      <play number="195" vh="V" team="HOBART" clock="10:17" action="GOAL" vscore="3" hscore="10" text="GOAL by HOBART Scott Harvey (MAN-UP), Assist by John Bogosian, goal number 2 for season."></play>
+      <currentscore vscore="3" hscore="10"></currentscore>
+      <play number="196" vh="V" team="HOBART" clock="10:17" action="FACE" text="Faceoff Tim Booth vs Brian Carroll won by HOBART."></play>
+      <play number="197" vh="V" team="HOBART" clock="10:17" action="GB" text="Ground ball pickup by HOBART Brad Neuberth."></play>
+      <play number="198" vh="V" team="HOBART" clock="09:44" action="SHOT" text="Shot by HOBART T.J. Rogers HIT POST."></play>
+      <play number="199" vh="H" team="MARYLAND" clock="09:16" action="SHOT" text="Shot by MARYLAND Dan LaMonica WIDE."></play>
+      <play number="200" vh="V" team="HOBART" clock="09:02" action="CLEAR" text="Clear attempt by HOBART good."></play>
+      <play number="201" vh="H" team="MARYLAND" clock="08:21" action="PEN" text="Penalty on MARYLAND Matt Brock (Bodychecking/1:00) Extra-man opportunity."></play>
+      <play number="202" vh="V" team="HOBART" clock="07:53" action="SHOT" text="Shot by HOBART Dave Occhialini, SAVE Danny McCormick."></play>
+      <play number="203" vh="H" team="MARYLAND" clock="07:02" action="TOUT" text="Timeout by MARYLAND."></play>
+      <play number="204" vh="H" team="MARYLAND" clock="06:56" action="GOAL" vscore="3" hscore="11" text="GOAL by MARYLAND Mike Mollot, goal number 2 for season."></play>
+      <currentscore vscore="3" hscore="11"></currentscore>
+      <play number="205" vh="V" team="HOBART" clock="06:56" action="FACE" text="Faceoff Tim Booth vs Brian Carroll won by HOBART."></play>
+      <play number="206" vh="V" team="HOBART" clock="06:56" action="GB" text="Ground ball pickup by HOBART Tim Booth."></play>
+      <play number="207" vh="H" team="MARYLAND" clock="06:46" action="GB" text="Ground ball pickup by MARYLAND Mike LaMonica."></play>
+      <play number="208" vh="H" team="MARYLAND" clock="06:18" action="GOAL" vscore="3" hscore="12" text="GOAL by MARYLAND Mike LaMonica, Assist by Mike Mollot, goal number 1 for season."></play>
+      <currentscore vscore="3" hscore="12"></currentscore>
+      <play number="209" vh="H" team="MARYLAND" clock="06:18" action="FACE" text="Faceoff Cam Thompson vs Brian Carroll won by MARYLAND."></play>
+      <play number="210" vh="H" team="MARYLAND" clock="06:18" action="GB" text="Ground ball pickup by MARYLAND Brett Harper."></play>
+      <play number="211" vh="H" team="MARYLAND" clock="06:15" action="GB" text="Ground ball pickup by MARYLAND Paul Gillette."></play>
+      <play number="212" vh="H" team="MARYLAND" clock="06:07" action="GB" text="Ground ball pickup by MARYLAND J.R. Bordley."></play>
+      <play number="213" vh="H" team="MARYLAND" clock="04:43" action="SHOT" text="Shot by MARYLAND Matt Brock, SAVE Mike Borsz."></play>
+      <play number="214" vh="H" team="MARYLAND" clock="04:33" action="GB" text="Ground ball pickup by MARYLAND Matt Brock."></play>
+      <play number="215" vh="H" team="MARYLAND" clock="04:30" action="SHOT" text="Shot by MARYLAND Matt Brock WIDE."></play>
+      <play number="216" vh="H" team="MARYLAND" clock="04:06" action="SHOT" text="Shot by MARYLAND Matt Brock HIGH."></play>
+      <play number="217" vh="V" team="HOBART" clock="04:05" action="PEN" text="Penalty on HOBART Scott Ditzell (UNRO/1:00) Extra-man opportunity."></play>
+      <play number="218" vh="H" team="MARYLAND" clock="04:05" action="GOALIE" text="T.C. Behm at goalie for MARYLAND."></play>
+      <play number="219" vh="H" team="MARYLAND" clock="03:41" action="GOAL" vscore="3" hscore="13" text="GOAL by MARYLAND Mike Mollot (MAN-UP), Assist by Mike Morsell, goal number 3 for season."></play>
+      <currentscore vscore="3" hscore="13"></currentscore>
+      <play number="220" vh="V" team="HOBART" clock="03:41" action="FACE" text="Faceoff Tim Booth vs Jim Sbarra won by HOBART."></play>
+      <play number="221" vh="V" team="HOBART" clock="03:27" action="SHOT" text="Shot by HOBART Tim Booth, SAVE T.C. Behm."></play>
+      <play number="222" vh="H" team="MARYLAND" clock="03:14" action="CLEAR" text="Clear attempt by MARYLAND good."></play>
+      <play number="223" vh="V" team="HOBART" clock="02:25" action="GB" text="Ground ball pickup by HOBART John Lindstrom."></play>
+      <play number="224" vh="V" team="HOBART" clock="02:22" action="GB" text="Ground ball pickup by HOBART Shawn Powers."></play>
+      <play number="225" vh="V" team="HOBART" clock="02:13" action="CLEAR" text="Clear attempt by HOBART."></play>
+      <play number="226" vh="V" team="HOBART" clock="02:13" action="GB" text="Ground ball pickup by HOBART Nick Musso."></play>
+      <play number="227" vh="V" team="HOBART" clock="02:13" action="SHOT" text="Shot by HOBART Nick Musso WIDE."></play>
+      <play number="228" vh="H" team="MARYLAND" clock="01:40" action="CLEAR" text="Clear attempt by MARYLAND."></play>
+      <play number="229" vh="V" team="HOBART" clock="01:40" action="SHOT" text="Shot by HOBART Nate Hill WIDE."></play>
+      <play number="230" vh="H" team="MARYLAND" clock="01:40" action="CLEAR" text="Clear attempt by MARYLAND."></play>
+      <play number="231" vh="V" team="HOBART" clock="01:12" action="GOAL" vscore="4" hscore="13" text="GOAL by HOBART John Bogosian, Assist by Kris Shore, goal number 1 for season."></play>
+      <currentscore vscore="4" hscore="13"></currentscore>
+      <play number="232" vh="V" team="HOBART" clock="01:12" action="FACE" text="Faceoff Tim Booth vs Drew Virk won by HOBART."></play>
+      <play number="233" vh="V" team="HOBART" clock="01:11" action="GB" text="Ground ball pickup by HOBART John Summers."></play>
+      <play number="234" vh="V" team="HOBART" clock="00:58" action="GOAL" vscore="5" hscore="13" text="GOAL by HOBART Scott Harvey, goal number 3 for season."></play>
+      <currentscore vscore="5" hscore="13"></currentscore>
+      <play number="235" vh="V" team="HOBART" clock="00:58" action="FACE" text="Faceoff Tim Booth vs Jim Sbarra won by HOBART."></play>
+      <play number="236" vh="V" team="HOBART" clock="00:55" action="GB" text="Ground ball pickup by HOBART John Summers."></play>
+      <play number="237" vh="V" team="HOBART" clock="00:33" action="GOAL" vscore="6" hscore="13" text="GOAL by HOBART Scott Harvey, goal number 4 for season."></play>
+      <currentscore vscore="6" hscore="13"></currentscore>
+      <play number="238" vh="H" team="MARYLAND" clock="00:33" action="PEN" text="Penalty on MARYLAND Tyler Hereth (SL/1:00) Extra-man opportunity."></play>
+      <play number="239" vh="H" team="MARYLAND" clock="00:33" action="FACE" text="Faceoff Tim Booth vs Brian Carroll won by MARYLAND."></play>
+      <play number="240" vh="H" team="MARYLAND" clock="00:33" action="GB" text="Ground ball pickup by MARYLAND Alex Poole."></play>
+      <play number="241" vh="V" team="HOBART" clock="00:01" action="GB" text="Ground ball pickup by HOBART Geoff Zbikowski."></play>
+      <play number="242" clock="00:00" action="END-PRD" text=""></play>
+      <currentscore vscore="6" hscore="13"></currentscore>
+    </period>
+  </plays>
+</lcgame>
