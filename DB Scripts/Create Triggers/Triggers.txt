@@ -1,6 +1,6 @@
 CREATE TRIGGER ON player_goalie
 AFTER INSERT, UPDATE
-AS 
+FOR EACH ROW
 	DECLARE @GameID varchar(40), @Saves int
 
 	SELECT @GameID = game_id, @Saves = SUM(saves)
@@ -10,3 +10,24 @@ AS
 	UPDATE team_totals
 	SET team_total.saves = @Saves
 	WHERE team_totals.game_id = @GameID
+
+
+//Maybe?
+DELIMITER $$
+CREATE TRIGGER after_insert
+AFTER INSERT ON player_goalie
+FOR EACH ROW BEGIN
+        
+
+        DECLARE GameID VARCHAR(40);
+        DECLARE TeamID VARCHAR(40);
+        DECLARE Saves int;
+
+	
+        SET Saves = SELECT SUM(player_goalie.saves) FROM player_goalie WHERE player_goalie.game_id = NEW.game_id AND player_goalie.team_id = NEW.team_id;
+
+
+	UPDATE team_totals
+	SET team_total.saves = Saves
+	WHERE team_totals.game_id = GameID AND team_totals.team_id = TeamID;
+END$$
